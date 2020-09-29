@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.image{
+    height: 240px;
+   
+}
+
+@media(max-width:770px) {
+    .container {
+        margin: 0 10%;
+    }
+    .image{
+        width:100%;
+    }
+}

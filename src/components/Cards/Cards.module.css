@@ -1,0 +1,23 @@
+.container {
+    background-color: purple !important;
+    margin: 30px 50px;
+}
+
+.card {
+    margin: 0 2% !important
+}
+
+.confirmed {
+    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    background-color: lightblue !important;
+}
+
+.recovered {
+    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    background-color:  rgba(105, 233, 105, 0.822) !important;
+}
+
+.deaths {
+    border-bottom: 10px solid rgba(238, 36, 36, 0.76);
+    background-color:   rgba(238, 121, 121, 0.931)!important;
+}

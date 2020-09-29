@@ -1,0 +1,16 @@
+.countryPicker{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.countryPicker > p {
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.formControl {
+     width:30%;
+     margin-bottom: 30px !important;
+     background-color: lightblue !important;
+ } 
